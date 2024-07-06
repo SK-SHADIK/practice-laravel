@@ -6,8 +6,14 @@
     "license": "MIT",
     "require": {
         "php": "^7.3|^8.0",
+        "encore/laravel-admin": "*",
         "fruitcake/laravel-cors": "^2.0",
         "guzzlehttp/guzzle": "^7.0.1",
+        "laravel-admin-ext/api-tester": "^1.0",
+        "laravel-admin-ext/config": "^1.1",
+        "laravel-admin-ext/helpers": "^2.0",
+        "laravel-admin-ext/log-viewer": "^1.0",
+        "laravel-admin-ext/media-manager": "^2.0",
         "laravel/framework": "^8.75",
         "laravel/sanctum": "^2.11",
         "laravel/tinker": "^2.5"
@@ -27,6 +33,9 @@
             "Database\\Seeders\\": "database/seeders/"
         }
     },
+    "files": [
+        "app/Helpers/ShopHelper.php"
+    ],
     "autoload-dev": {
         "psr-4": {
             "Tests\\": "tests/"
